@@ -29,8 +29,7 @@ What's new in LuaInterface 1.5.3
   * Internal lua panics (due to API violations) now throw LuaExceptions into .net
   * If .net code throws an exception into Lua and lua does not handle it, the
 original exception is forwarded back out to .net land.
-  * Fix bug in the Lua 5.1.1 gmatch C code - it was improperly assuming gmatch
-only works with tables.
+  * Fix bug in the Lua 5.1.1 gmatch C code - it was improperly assuming gmatch only works with tables.
 
 What's new in LuaInterface 1.5.2
 ----------
