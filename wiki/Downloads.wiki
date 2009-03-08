@@ -8,17 +8,17 @@ Since v2, LuaInterface has some dependencies on the VisualC++ runtime library. T
 
 What's new in LuaInterface 2.0.3
 ------------------------------
-* Fix: Private methods accessible via LuaInterface
-* Fix: Method overload lookup failures
-* Fix: Lua DoFile memory leaks when file not found (submitted by Paul Moore)
-* Fix: Lua Dispose not freeing memory (submitted by Paul Moore)
-* Fix: Better support for accessing indexers
-* Fix: Parsing error for MBCS characters (qingrui.li)
-* Fix: Dispose errors originating from LuaTable, LuaFunction, LuaUserData
-* Fix: LuaInterface no longer disposes the state when passed one via the overloaded constructor
-* Added: LoadString and LoadFile (submitted by Paul Moore)
-* Added: Overloaded DoString
-* Added: Lua debugging support (rostermeier)
+  * Fix: Private methods accessible via LuaInterface
+  * Fix: Method overload lookup failures
+  * Fix: Lua DoFile memory leaks when file not found (submitted by Paul Moore)
+  * Fix: Lua Dispose not freeing memory (submitted by Paul Moore)
+  * Fix: Better support for accessing indexers
+  * Fix: Parsing error for MBCS characters (qingrui.li)
+  * Fix: Dispose errors originating from LuaTable, LuaFunction, LuaUserData
+  * Fix: LuaInterface no longer disposes the state when passed one via the overloaded constructor
+  * Added: LoadString and LoadFile (submitted by Paul Moore)
+  * Added: Overloaded DoString
+  * Added: Lua debugging support (rostermeier)
 
 See full [changelog].
 
